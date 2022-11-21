@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A48F7267-533B-4618-A5F9-2B73136E7812}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formAdministradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdministradores.Designer.cs">
+      <DependentUpon>formAdministradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCompetencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCompetencias.Designer.cs">
+      <DependentUpon>formCompetencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEntrenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEntrenador.Designer.cs">
+      <DependentUpon>formEntrenador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEquipos.Designer.cs">
+      <DependentUpon>formEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formInforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formInforme.Designer.cs">
+      <DependentUpon>formInforme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formIngresoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formIngresoUsuario.Designer.cs">
+      <DependentUpon>formIngresoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formParticipantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formParticipantes.Designer.cs">
+      <DependentUpon>formParticipantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPatrocinadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPatrocinadores.Designer.cs">
+      <DependentUpon>formPatrocinadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="txtDNI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="txtDNI.Designer.cs">
+      <DependentUpon>txtDNI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAdministradores.resx">
+      <DependentUpon>formAdministradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCompetencias.resx">
+      <DependentUpon>formCompetencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEntrenador.resx">
+      <DependentUpon>formEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEquipos.resx">
+      <DependentUpon>formEquipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInforme.resx">
+      <DependentUpon>formInforme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formIngresoUsuario.resx">
+      <DependentUpon>formIngresoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formParticipantes.resx">
+      <DependentUpon>formParticipantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPatrocinadores.resx">
+      <DependentUpon>formPatrocinadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="txtDNI.resx">
+      <DependentUpon>txtDNI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{fa8f3cfa-2d22-4057-980c-ad96fe46d8e4}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{3a24c199-f57d-4d92-9761-0b14b9e11165}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

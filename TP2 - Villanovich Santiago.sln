@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{A48F7267-533B-4618-A5F9-2B73136E7812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{864E92BC-72B6-4C4C-8C45-8A9C07CEF961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAPPER", "MAPPER\MAPPER.csproj", "{FE58D318-7641-4ED3-B3FE-0A9A82862117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE", "BE\BE.csproj", "{FA8F3CFA-2D22-4057-980C-AD96FE46D8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{3A24C199-F57D-4D92-9761-0B14B9E11165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS", "ABS\ABS.csproj", "{24D7BD30-75D1-4D13-9690-187629DEAC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALXML2", "DALXML2\DALXML2.csproj", "{E80E6FD6-8349-455F-BD47-1CAE73542B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48F7267-533B-4618-A5F9-2B73136E7812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48F7267-533B-4618-A5F9-2B73136E7812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48F7267-533B-4618-A5F9-2B73136E7812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48F7267-533B-4618-A5F9-2B73136E7812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864E92BC-72B6-4C4C-8C45-8A9C07CEF961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864E92BC-72B6-4C4C-8C45-8A9C07CEF961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864E92BC-72B6-4C4C-8C45-8A9C07CEF961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864E92BC-72B6-4C4C-8C45-8A9C07CEF961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE58D318-7641-4ED3-B3FE-0A9A82862117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE58D318-7641-4ED3-B3FE-0A9A82862117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE58D318-7641-4ED3-B3FE-0A9A82862117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE58D318-7641-4ED3-B3FE-0A9A82862117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8F3CFA-2D22-4057-980C-AD96FE46D8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8F3CFA-2D22-4057-980C-AD96FE46D8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8F3CFA-2D22-4057-980C-AD96FE46D8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8F3CFA-2D22-4057-980C-AD96FE46D8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A24C199-F57D-4D92-9761-0B14B9E11165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A24C199-F57D-4D92-9761-0B14B9E11165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A24C199-F57D-4D92-9761-0B14B9E11165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A24C199-F57D-4D92-9761-0B14B9E11165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D7BD30-75D1-4D13-9690-187629DEAC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D7BD30-75D1-4D13-9690-187629DEAC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D7BD30-75D1-4D13-9690-187629DEAC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D7BD30-75D1-4D13-9690-187629DEAC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80E6FD6-8349-455F-BD47-1CAE73542B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80E6FD6-8349-455F-BD47-1CAE73542B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80E6FD6-8349-455F-BD47-1CAE73542B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80E6FD6-8349-455F-BD47-1CAE73542B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F52EB9ED-F1B0-4937-9EC7-701848D07215}
+	EndGlobalSection
+EndGlobal
